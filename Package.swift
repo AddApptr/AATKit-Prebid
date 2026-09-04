@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta2"),
-        .package(url: "https://github.com/AddApptr/AATKit-GoogleMobileAds.git", exact: "3.18.0-beta2"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0-beta3"),
+        .package(url: "https://github.com/AddApptr/AATKit-GoogleMobileAds.git", exact: "3.18.0-beta3"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -41,18 +41,18 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATDFPPrebidAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/AATDFPPrebidAdapter.zip",
-            checksum: "35b8f7e8311f8cdc24d7ee56a978bdaf97c39c4be43df9b9e49339f1fa726318"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/AATDFPPrebidAdapter.zip",
+            checksum: "0386b9722e36f3acb07032c4264c96b0d39a9b26246ed07f2fd11d0c82ab779a"
         ),
         .binaryTarget(
             name: "AATOMSDK_Prebidorg",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/OMSDK_Prebidorg.zip",
-            checksum: "39b3bce2336c80e10cbbc7bab0d559c86369769fb5e0d730e98d27d6c33e7100"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/OMSDK_Prebidorg.zip",
+            checksum: "697ffcea9ce879ed66a44a01f38866d447344cf3016f72da48c47167f7fa286d"
         ),
         .binaryTarget(
             name: "AATPrebidMobile",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta2/PrebidMobile.zip",
-            checksum: "f40bd4add8e124c4b9bd16e35617e16e1c20cc74fda029bce6eb2b378fdda7e4"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0-beta3/PrebidMobile.zip",
+            checksum: "5b95ae0f0a22d139a3419bd68946c48d23347fe81b5844c8353b7197d02b1079"
         ),
     ]
 )
