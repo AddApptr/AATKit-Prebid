@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
-        .package(url: "https://github.com/AddApptr/AATKit-GoogleMobileAds.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
+        .package(url: "https://github.com/AddApptr/AATKit-GoogleMobileAds.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -41,18 +41,18 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATDFPPrebidAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATDFPPrebidAdapter.zip",
-            checksum: "04b9bed58c869b0a09be5070fd63d84a879b8871f0209e333a63ae73b9f04b4e"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATDFPPrebidAdapter.zip",
+            checksum: "e2bd11856f1a3b66d744f3f2b692378bd0f9acaf5b48830c83782d564b729dc6"
         ),
         .binaryTarget(
             name: "AATOMSDK_Prebidorg",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/OMSDK_Prebidorg.zip",
-            checksum: "4ac438b9019c537df5506e3dfdc5605636f04bf593b97fcb192b2459ae00655b"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/OMSDK_Prebidorg.zip",
+            checksum: "177ae6784188eb5b952fab19b246b1a22293180075040b27ed059c1eb420eb39"
         ),
         .binaryTarget(
             name: "AATPrebidMobile",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/PrebidMobile.zip",
-            checksum: "3679df0227615b0d840de9573dcf2a71f41f79aedc71a0fbdf7d0f9488dd6cd5"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/PrebidMobile.zip",
+            checksum: "4d187a9505908ba7c502953b56237e0b171ab9249f08ebee5278363ecf5e67c0"
         ),
     ]
 )
